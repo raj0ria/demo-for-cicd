@@ -18,7 +18,7 @@ public class HelloController {
     }
 
     @GetMapping("/handshake")
-    public String greet() {
+    public String handshake() {
         return "Nice to meet you";
     }
 }
