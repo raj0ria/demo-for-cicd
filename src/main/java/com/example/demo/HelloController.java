@@ -16,4 +16,9 @@ public class HelloController {
     public String greet() {
         return "Guten Morgan!";
     }
+
+    @GetMapping("/handshake")
+    public String greet() {
+        return "Nice to meet you";
+    }
 }
