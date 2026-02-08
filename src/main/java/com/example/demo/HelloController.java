@@ -21,4 +21,9 @@ public class HelloController {
     public String handshake() {
         return "Nice to meet you";
     }
+
+    @GetMapping("/wish")
+    public String wishBirthDay() {
+        return "Happy birthday!";
+    }
 }
